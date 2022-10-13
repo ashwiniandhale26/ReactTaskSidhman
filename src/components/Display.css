@@ -1,0 +1,41 @@
+/* .btn{
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 150px;
+    font-weight: bolder;
+   
+} */
+
+    @keyframes example{
+        from{background-color:rgb(175, 82, 171);}
+        to {background-color:rgb(0, 123, 255);}
+    }
+    .img-div{
+        animation-name:example;
+        animation-duration:2s;
+        animation-iteration-count: infinite;
+       background-color: black;
+      height: 60px;
+      width: 100%;
+}
+.img-div h1{
+     color:yellowgreen;
+     font-size: 30px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     padding: 10px;
+}
+.subdiv{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.subdiv h1{
+   text-align: center;
+   padding: 10px;
+}

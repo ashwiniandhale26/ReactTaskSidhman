@@ -1,0 +1,73 @@
+.nav{
+    background-color: rgb(7, 7, 9);
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    padding-top: 20px;
+
+}
+.partition{
+    column-count: 2;
+    padding: 20px;
+    margin: 20px;
+}
+
+.partition p{
+      font-size: 25px;
+      color: white;
+}
+.partition h2{
+    color: yellowgreen;
+    text-align: center;
+}
+.btn-div{
+    background-color: black;
+    color: white;
+}
+.btn-div img{
+    border-radius: 50%;
+    border: 2px solid white;
+    float: inline-end;
+}
+.btn{
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0px ;
+    margin: 30px;
+    height: 50px;
+    width: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+   
+}
+.nav ul li{
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 20px;
+    margin: 10px;
+}
+.navdiv{
+    width: 100%;
+}
+@keyframes buttonwallet{
+    from{background-color:rgb(175, 82, 171);}
+    to {background-color:rgb(0, 255, 255);}
+}
+.btn1{
+    animation-name: buttonwallet;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    background-color: aqua;
+}
